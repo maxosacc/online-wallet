@@ -1,0 +1,3 @@
+C:\Users\Korisnik\Documents\repos\online-wallet\OnlineWallet\Common\Common.EfCoreDbContext\bin\Debug\netcoreapp3.1\Common.Utils.dll
+C:\Users\Korisnik\Documents\repos\online-wallet\OnlineWallet\Common\Common.EfCoreDbContext\obj\Debug\netcoreapp3.1\Common.EfCoreDbContext.AssemblyInfoInputs.cache
+C:\Users\Korisnik\Documents\repos\online-wallet\OnlineWallet\Common\Common.EfCoreDbContext\obj\Debug\netcoreapp3.1\Common.EfCoreDbContext.AssemblyInfo.cs
