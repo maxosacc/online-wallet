@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Core.ApplicationServices": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}
