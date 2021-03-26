@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Lx7uPUPEZEXD/qO+o26W1+gCA5nEyLbPjDJmcO1T3zJr7mt7teJyR0xElKN13xM+9NTm2g3Bty9Aoqgls7OM5g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Apps\\WebApp\\WebApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Korisnik\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512"
+  ],
+  "logs": []
+}
