@@ -6,7 +6,7 @@ namespace Core.Domain.Entities
 {
     public class UserAccount
     {
-        public string Id { get; private set; }
+        public int Id { get; private set; }
         public string FirstName { get; private set; }
         public string LastName { get; set; }
         public string IdentificationNumber { get; private set; }
@@ -16,6 +16,10 @@ namespace Core.Domain.Entities
         public bool IsBlocked { get; private set; }
         public bool IsAdmin { get; private set; }
 
+        public UserAccount()
+        {
+
+        }
         public UserAccount(
             string firstName,
             string lastName,
@@ -25,7 +29,6 @@ namespace Core.Domain.Entities
             string password,
             bool isAdmin = false)
         {
-            Id = Guid.NewGuid().ToString();
             IsAdmin = isAdmin;
             FirstName = firstName;
             LastName = lastName;
