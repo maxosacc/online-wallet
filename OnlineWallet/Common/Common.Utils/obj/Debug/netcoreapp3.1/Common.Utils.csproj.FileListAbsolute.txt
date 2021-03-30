@@ -1,0 +1,8 @@
+C:\Users\Korisnik\Documents\repos\online-wallet\OnlineWallet\Common\Common.Utils\bin\Debug\netcoreapp3.1\Common.Utils.deps.json
+C:\Users\Korisnik\Documents\repos\online-wallet\OnlineWallet\Common\Common.Utils\bin\Debug\netcoreapp3.1\Common.Utils.dll
+C:\Users\Korisnik\Documents\repos\online-wallet\OnlineWallet\Common\Common.Utils\bin\Debug\netcoreapp3.1\Common.Utils.pdb
+C:\Users\Korisnik\Documents\repos\online-wallet\OnlineWallet\Common\Common.Utils\obj\Debug\netcoreapp3.1\Common.Utils.AssemblyInfoInputs.cache
+C:\Users\Korisnik\Documents\repos\online-wallet\OnlineWallet\Common\Common.Utils\obj\Debug\netcoreapp3.1\Common.Utils.AssemblyInfo.cs
+C:\Users\Korisnik\Documents\repos\online-wallet\OnlineWallet\Common\Common.Utils\obj\Debug\netcoreapp3.1\Common.Utils.csproj.CoreCompileInputs.cache
+C:\Users\Korisnik\Documents\repos\online-wallet\OnlineWallet\Common\Common.Utils\obj\Debug\netcoreapp3.1\Common.Utils.dll
+C:\Users\Korisnik\Documents\repos\online-wallet\OnlineWallet\Common\Common.Utils\obj\Debug\netcoreapp3.1\Common.Utils.pdb
