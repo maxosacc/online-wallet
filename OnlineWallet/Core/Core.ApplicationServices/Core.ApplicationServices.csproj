@@ -4,4 +4,13 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Core.Domain\Core.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="DTOs\Bank\" />
+    <Folder Include="DTOs\Transactions\" />
+  </ItemGroup>
+
 </Project>
