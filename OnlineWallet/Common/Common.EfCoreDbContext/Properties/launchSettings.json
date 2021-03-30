@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Common.EfCoreDbContext": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}

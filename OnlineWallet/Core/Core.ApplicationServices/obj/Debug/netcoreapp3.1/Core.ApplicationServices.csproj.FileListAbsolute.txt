@@ -1,0 +1,14 @@
+C:\Users\Korisnik\Documents\repos\online-wallet\OnlineWallet\Core\Core.ApplicationServices\bin\Debug\netcoreapp3.1\Core.ApplicationServices.deps.json
+C:\Users\Korisnik\Documents\repos\online-wallet\OnlineWallet\Core\Core.ApplicationServices\bin\Debug\netcoreapp3.1\Core.ApplicationServices.dll
+C:\Users\Korisnik\Documents\repos\online-wallet\OnlineWallet\Core\Core.ApplicationServices\bin\Debug\netcoreapp3.1\Core.ApplicationServices.pdb
+C:\Users\Korisnik\Documents\repos\online-wallet\OnlineWallet\Core\Core.ApplicationServices\bin\Debug\netcoreapp3.1\Common.Utils.dll
+C:\Users\Korisnik\Documents\repos\online-wallet\OnlineWallet\Core\Core.ApplicationServices\bin\Debug\netcoreapp3.1\Core.Domain.dll
+C:\Users\Korisnik\Documents\repos\online-wallet\OnlineWallet\Core\Core.ApplicationServices\bin\Debug\netcoreapp3.1\Core.Domain.pdb
+C:\Users\Korisnik\Documents\repos\online-wallet\OnlineWallet\Core\Core.ApplicationServices\bin\Debug\netcoreapp3.1\Common.Utils.pdb
+C:\Users\Korisnik\Documents\repos\online-wallet\OnlineWallet\Core\Core.ApplicationServices\obj\Debug\netcoreapp3.1\Core.ApplicationServices.csprojAssemblyReference.cache
+C:\Users\Korisnik\Documents\repos\online-wallet\OnlineWallet\Core\Core.ApplicationServices\obj\Debug\netcoreapp3.1\Core.ApplicationServices.AssemblyInfoInputs.cache
+C:\Users\Korisnik\Documents\repos\online-wallet\OnlineWallet\Core\Core.ApplicationServices\obj\Debug\netcoreapp3.1\Core.ApplicationServices.AssemblyInfo.cs
+C:\Users\Korisnik\Documents\repos\online-wallet\OnlineWallet\Core\Core.ApplicationServices\obj\Debug\netcoreapp3.1\Core.ApplicationServices.csproj.CoreCompileInputs.cache
+C:\Users\Korisnik\Documents\repos\online-wallet\OnlineWallet\Core\Core.ApplicationServices\obj\Debug\netcoreapp3.1\Core.ApplicationServices.csproj.CopyComplete
+C:\Users\Korisnik\Documents\repos\online-wallet\OnlineWallet\Core\Core.ApplicationServices\obj\Debug\netcoreapp3.1\Core.ApplicationServices.dll
+C:\Users\Korisnik\Documents\repos\online-wallet\OnlineWallet\Core\Core.ApplicationServices\obj\Debug\netcoreapp3.1\Core.ApplicationServices.pdb
