@@ -28,12 +28,6 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Core\\Core.ApplicationServices\\Core.ApplicationServices.csproj": {
-                "projectPath": "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Core\\Core.ApplicationServices\\Core.ApplicationServices.csproj"
-              },
-              "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Core\\Core.Domain\\Core.Domain.csproj": {
-                "projectPath": "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Core\\Core.Domain\\Core.Domain.csproj"
-              },
               "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Core\\Infrastructure\\Core.Infrastructure.EfCoreDataAccess\\Core.Infrastructure.EfCoreDataAccess.csproj": {
                 "projectPath": "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Core\\Infrastructure\\Core.Infrastructure.EfCoreDataAccess\\Core.Infrastructure.EfCoreDataAccess.csproj"
               }
@@ -50,9 +44,35 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
               "version": "[1.10.9, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "Serilog.Enrichers.Environment": {
+              "target": "Package",
+              "version": "[2.1.3, )"
+            },
+            "Serilog.Enrichers.Process": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            },
+            "Serilog.Enrichers.Thread": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Serilog.Exceptions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
             }
           },
           "imports": [
@@ -77,14 +97,14 @@
         }
       }
     },
-    "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Core\\Core.ApplicationServices\\Core.ApplicationServices.csproj": {
+    "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Common\\Common.EfCoreDbContext\\Common.EfCoreDbContext.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Core\\Core.ApplicationServices\\Core.ApplicationServices.csproj",
-        "projectName": "Core.ApplicationServices",
-        "projectPath": "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Core\\Core.ApplicationServices\\Core.ApplicationServices.csproj",
+        "projectUniqueName": "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Common\\Common.EfCoreDbContext\\Common.EfCoreDbContext.csproj",
+        "projectName": "Common.EfCoreDbContext",
+        "projectPath": "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Common\\Common.EfCoreDbContext\\Common.EfCoreDbContext.csproj",
         "packagesPath": "C:\\Users\\Korisnik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Core\\Core.ApplicationServices\\obj\\",
+        "outputPath": "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Common\\Common.EfCoreDbContext\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Korisnik\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -101,10 +121,76 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Core\\Core.Domain\\Core.Domain.csproj": {
-                "projectPath": "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Core\\Core.Domain\\Core.Domain.csproj"
+              "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Common\\Common.Utils\\Common.Utils.csproj": {
+                "projectPath": "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Common\\Common.Utils\\Common.Utils.csproj"
               }
             }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Common\\Common.Utils\\Common.Utils.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Common\\Common.Utils\\Common.Utils.csproj",
+        "projectName": "Common.Utils",
+        "projectPath": "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Common\\Common.Utils\\Common.Utils.csproj",
+        "packagesPath": "C:\\Users\\Korisnik\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Common\\Common.Utils\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Korisnik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -158,7 +244,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Common\\Common.Utils\\Common.Utils.csproj": {
+                "projectPath": "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Common\\Common.Utils\\Common.Utils.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -212,7 +302,14 @@
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Common\\Common.EfCoreDbContext\\Common.EfCoreDbContext.csproj": {
+                "projectPath": "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Common\\Common.EfCoreDbContext\\Common.EfCoreDbContext.csproj"
+              },
+              "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Core\\Core.Domain\\Core.Domain.csproj": {
+                "projectPath": "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Core\\Core.Domain\\Core.Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
