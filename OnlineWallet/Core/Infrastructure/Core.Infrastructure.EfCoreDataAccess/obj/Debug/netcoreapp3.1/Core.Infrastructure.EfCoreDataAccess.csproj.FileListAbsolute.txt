@@ -1,0 +1,16 @@
+C:\Users\Korisnik\Documents\repos\online-wallet\OnlineWallet\Core\Infrastructure\Core.Infrastructure.EfCoreDataAccess\bin\Debug\netcoreapp3.1\Common.EfCoreDbContext.dll
+C:\Users\Korisnik\Documents\repos\online-wallet\OnlineWallet\Core\Infrastructure\Core.Infrastructure.EfCoreDataAccess\bin\Debug\netcoreapp3.1\Core.Domain.dll
+C:\Users\Korisnik\Documents\repos\online-wallet\OnlineWallet\Core\Infrastructure\Core.Infrastructure.EfCoreDataAccess\obj\Debug\netcoreapp3.1\Core.Infrastructure.EfCoreDataAccess.csprojAssemblyReference.cache
+C:\Users\Korisnik\Documents\repos\online-wallet\OnlineWallet\Core\Infrastructure\Core.Infrastructure.EfCoreDataAccess\obj\Debug\netcoreapp3.1\Core.Infrastructure.EfCoreDataAccess.AssemblyInfoInputs.cache
+C:\Users\Korisnik\Documents\repos\online-wallet\OnlineWallet\Core\Infrastructure\Core.Infrastructure.EfCoreDataAccess\obj\Debug\netcoreapp3.1\Core.Infrastructure.EfCoreDataAccess.AssemblyInfo.cs
+C:\Users\Korisnik\Documents\repos\online-wallet\OnlineWallet\Core\Infrastructure\Core.Infrastructure.EfCoreDataAccess\bin\Debug\netcoreapp3.1\Core.Infrastructure.EfCoreDataAccess.deps.json
+C:\Users\Korisnik\Documents\repos\online-wallet\OnlineWallet\Core\Infrastructure\Core.Infrastructure.EfCoreDataAccess\bin\Debug\netcoreapp3.1\Core.Infrastructure.EfCoreDataAccess.dll
+C:\Users\Korisnik\Documents\repos\online-wallet\OnlineWallet\Core\Infrastructure\Core.Infrastructure.EfCoreDataAccess\bin\Debug\netcoreapp3.1\Core.Infrastructure.EfCoreDataAccess.pdb
+C:\Users\Korisnik\Documents\repos\online-wallet\OnlineWallet\Core\Infrastructure\Core.Infrastructure.EfCoreDataAccess\bin\Debug\netcoreapp3.1\Common.Utils.dll
+C:\Users\Korisnik\Documents\repos\online-wallet\OnlineWallet\Core\Infrastructure\Core.Infrastructure.EfCoreDataAccess\bin\Debug\netcoreapp3.1\Common.EfCoreDbContext.pdb
+C:\Users\Korisnik\Documents\repos\online-wallet\OnlineWallet\Core\Infrastructure\Core.Infrastructure.EfCoreDataAccess\bin\Debug\netcoreapp3.1\Core.Domain.pdb
+C:\Users\Korisnik\Documents\repos\online-wallet\OnlineWallet\Core\Infrastructure\Core.Infrastructure.EfCoreDataAccess\bin\Debug\netcoreapp3.1\Common.Utils.pdb
+C:\Users\Korisnik\Documents\repos\online-wallet\OnlineWallet\Core\Infrastructure\Core.Infrastructure.EfCoreDataAccess\obj\Debug\netcoreapp3.1\Core.Infrastructure.EfCoreDataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Korisnik\Documents\repos\online-wallet\OnlineWallet\Core\Infrastructure\Core.Infrastructure.EfCoreDataAccess\obj\Debug\netcoreapp3.1\Core.Infrastructure.EfCoreDataAccess.csproj.CopyComplete
+C:\Users\Korisnik\Documents\repos\online-wallet\OnlineWallet\Core\Infrastructure\Core.Infrastructure.EfCoreDataAccess\obj\Debug\netcoreapp3.1\Core.Infrastructure.EfCoreDataAccess.dll
+C:\Users\Korisnik\Documents\repos\online-wallet\OnlineWallet\Core\Infrastructure\Core.Infrastructure.EfCoreDataAccess\obj\Debug\netcoreapp3.1\Core.Infrastructure.EfCoreDataAccess.pdb
