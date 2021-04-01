@@ -1,13 +1,13 @@
-C:\Users\Korisnik\Documents\repos\online-wallet\OnlineWallet\Common\Common.EfCoreDbContext\bin\Debug\netcoreapp3.1\Common.Utils.dll
-C:\Users\Korisnik\Documents\repos\online-wallet\OnlineWallet\Common\Common.EfCoreDbContext\obj\Debug\netcoreapp3.1\Common.EfCoreDbContext.AssemblyInfoInputs.cache
-C:\Users\Korisnik\Documents\repos\online-wallet\OnlineWallet\Common\Common.EfCoreDbContext\obj\Debug\netcoreapp3.1\Common.EfCoreDbContext.AssemblyInfo.cs
 C:\Users\Korisnik\Documents\repos\online-wallet\OnlineWallet\Common\Common.EfCoreDbContext\bin\Debug\netcoreapp3.1\Common.EfCoreDbContext.deps.json
 C:\Users\Korisnik\Documents\repos\online-wallet\OnlineWallet\Common\Common.EfCoreDbContext\bin\Debug\netcoreapp3.1\Common.EfCoreDbContext.runtimeconfig.json
 C:\Users\Korisnik\Documents\repos\online-wallet\OnlineWallet\Common\Common.EfCoreDbContext\bin\Debug\netcoreapp3.1\Common.EfCoreDbContext.runtimeconfig.dev.json
 C:\Users\Korisnik\Documents\repos\online-wallet\OnlineWallet\Common\Common.EfCoreDbContext\bin\Debug\netcoreapp3.1\Common.EfCoreDbContext.dll
 C:\Users\Korisnik\Documents\repos\online-wallet\OnlineWallet\Common\Common.EfCoreDbContext\bin\Debug\netcoreapp3.1\Common.EfCoreDbContext.pdb
+C:\Users\Korisnik\Documents\repos\online-wallet\OnlineWallet\Common\Common.EfCoreDbContext\bin\Debug\netcoreapp3.1\Common.Utils.dll
 C:\Users\Korisnik\Documents\repos\online-wallet\OnlineWallet\Common\Common.EfCoreDbContext\bin\Debug\netcoreapp3.1\Common.Utils.pdb
 C:\Users\Korisnik\Documents\repos\online-wallet\OnlineWallet\Common\Common.EfCoreDbContext\obj\Debug\netcoreapp3.1\Common.EfCoreDbContext.csprojAssemblyReference.cache
+C:\Users\Korisnik\Documents\repos\online-wallet\OnlineWallet\Common\Common.EfCoreDbContext\obj\Debug\netcoreapp3.1\Common.EfCoreDbContext.AssemblyInfoInputs.cache
+C:\Users\Korisnik\Documents\repos\online-wallet\OnlineWallet\Common\Common.EfCoreDbContext\obj\Debug\netcoreapp3.1\Common.EfCoreDbContext.AssemblyInfo.cs
 C:\Users\Korisnik\Documents\repos\online-wallet\OnlineWallet\Common\Common.EfCoreDbContext\obj\Debug\netcoreapp3.1\Common.EfCoreDbContext.csproj.CoreCompileInputs.cache
 C:\Users\Korisnik\Documents\repos\online-wallet\OnlineWallet\Common\Common.EfCoreDbContext\obj\Debug\netcoreapp3.1\Common.EfCoreDbContext.csproj.CopyComplete
 C:\Users\Korisnik\Documents\repos\online-wallet\OnlineWallet\Common\Common.EfCoreDbContext\obj\Debug\netcoreapp3.1\Common.EfCoreDbContext.dll

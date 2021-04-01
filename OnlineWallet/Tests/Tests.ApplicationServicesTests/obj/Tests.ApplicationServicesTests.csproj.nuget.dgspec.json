@@ -339,6 +339,9 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
+              "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Common\\Common.Utils\\Common.Utils.csproj": {
+                "projectPath": "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Common\\Common.Utils\\Common.Utils.csproj"
+              },
               "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Core\\Core.ApplicationServices\\Core.ApplicationServices.csproj": {
                 "projectPath": "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Core\\Core.ApplicationServices\\Core.ApplicationServices.csproj"
               },
