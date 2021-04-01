@@ -29,13 +29,17 @@ namespace Core.Domain.Entities
             string password,
             bool isAdmin = false)
         {
-            IsAdmin = isAdmin;
+            if (string.IsNullOrEmpty(identificationNumber)) throw new ArgumentNullException("identification number can not be null!");
+            if (string.IsNullOrEmpty(bankAccountNumber)) throw new ArgumentNullException("bank account number can not be null!");
+            if (string.IsNullOrEmpty(password)) throw new ArgumentNullException("password can not be null!");
+            if (password.Length > 6) throw new ArgumentNullException("password not valid. Enter max 6 numbers!");
             FirstName = firstName;
             LastName = lastName;
             IdentificationNumber = identificationNumber;
             Bank = bank;
             BankAccountNumber = bankAccountNumber;
             Password = password;
+            IsAdmin = isAdmin;
         }
 
         public void BlockUser()
