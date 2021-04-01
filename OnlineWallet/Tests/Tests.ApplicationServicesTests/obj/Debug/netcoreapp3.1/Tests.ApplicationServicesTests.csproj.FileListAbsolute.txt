@@ -150,3 +150,6 @@ C:\Users\Korisnik\Documents\repos\online-wallet\OnlineWallet\Tests\Tests.Applica
 C:\Users\Korisnik\Documents\repos\online-wallet\OnlineWallet\Tests\Tests.ApplicationServicesTests\obj\Debug\netcoreapp3.1\Tests.ApplicationServicesTests.dll
 C:\Users\Korisnik\Documents\repos\online-wallet\OnlineWallet\Tests\Tests.ApplicationServicesTests\obj\Debug\netcoreapp3.1\Tests.ApplicationServicesTests.pdb
 C:\Users\Korisnik\Documents\repos\online-wallet\OnlineWallet\Tests\Tests.ApplicationServicesTests\obj\Debug\netcoreapp3.1\Tests.ApplicationServicesTests.genruntimeconfig.cache
+C:\Users\Korisnik\Documents\repos\online-wallet\OnlineWallet\Tests\Tests.ApplicationServicesTests\bin\Debug\netcoreapp3.1\System.Net.Http.Json.dll
+C:\Users\Korisnik\Documents\repos\online-wallet\OnlineWallet\Tests\Tests.ApplicationServicesTests\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+C:\Users\Korisnik\Documents\repos\online-wallet\OnlineWallet\Tests\Tests.ApplicationServicesTests\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Http.dll

@@ -9,7 +9,7 @@ namespace Tests.ApplicationServicesTests
         public CoreEfCoreDbContext CreateDbContext(string[] args)
         {
             var options = new DbContextOptionsBuilder<CoreEfCoreDbContext>()
-                .UseSqlServer("Server=(localdb)\\mssqllocaldb;Database=testDB;Trusted_Connection=True;MultipleActiveResultSets=true")
+                .UseSqlServer("Server=(localdb)\\MSSQLLocalDB;Database=testDB;Trusted_Connection=True;MultipleActiveResultSets=true")
             .Options;
 
             return new CoreEfCoreDbContext(options);
