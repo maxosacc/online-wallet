@@ -1,10 +1,19 @@
-﻿using Core.Domain.Entities.Enums;
+﻿using Core.Domain.DTOs.UserAccounts;
+using Core.Domain.Entities.Enums;
+using System.Threading.Tasks;
 
 namespace Core.Domain.Services
 {
     public interface IUserAccountService
     {
-        public int CreateUser(
+        Task<UserAccountDto> CreateUser(
+            string firstName,
+            string lastName,
+            string userIdentificationNumber,
+            BankType bankType,
+            string bankAccountNumber,
+            int bankPin);
+        Task<UserAccountDto> CreateUserTestMock(
             string firstName,
             string lastName,
             string userIdentificationNumber,
@@ -12,9 +21,9 @@ namespace Core.Domain.Services
             string bankAccountNumber,
             int bankPin);
 
-        public int LoginUser(string userIdentificationNumber, string password);
-        public int LogOut();
+        Task<int> LoginUser(string userIdentificationNumber, string password);
+        Task<int> LogOut();
 
-        public bool ChangePassword(string oldPassword, string newPassword);
+        Task<bool> ChangePassword(string oldPassword, string newPassword);
     }
 }
