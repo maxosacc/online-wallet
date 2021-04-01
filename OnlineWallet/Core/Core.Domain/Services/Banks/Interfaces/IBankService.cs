@@ -1,14 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Threading.Tasks;
 
 namespace Core.Domain.Services.Banks
 {
     public interface IBankService
     {
-        public int ValidateUserAccountBankAndGeneratePassword(string userIdentificationNumber, string bankAccountNumber, int bankPin);
-        public bool CheckStatus(string userIdentificationNumber, int bankPin);
-        public bool Deposit(string userIdentificationNumber, int bankPin, decimal amount);
-        public bool Withdraw(string userIdentificationNumber, int bankPin, decimal amount);
+        Task<string> ValidateUserBankAccountAndGeneratePassword(string userIdentificationNumber, string bankAccountNumber, int bankPin);
+        Task<string> ValidateUserBankAccountAndGeneratePasswordTestMock(string userIdentificationNumber, string bankAccountNumber, int bankPin);
+        Task<bool> CheckStatus(string userIdentificationNumber, int bankPin);
+        Task<bool> Deposit(string userIdentificationNumber, int bankPin, decimal amount);
+        Task<bool> Withdraw(string userIdentificationNumber, int bankPin, decimal amount);
     }
 }
