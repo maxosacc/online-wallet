@@ -1,5 +1,7 @@
-﻿using Core.Domain.Services;
+﻿using Core.Domain.Exceptions;
+using Core.Domain.Services;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,9 +13,11 @@ namespace WebApp.Controllers
     public class UserAccountController : Controller
     {
         private readonly IUserAccountService _userAccountService;
-        public UserAccountController(IUserAccountService userAccountService)
+        private readonly ILogger<UserAccountController> Logger;
+        public UserAccountController(IUserAccountService userAccountService,ILogger<UserAccountController> logger)
         {
             _userAccountService = userAccountService;
+            Logger = logger;
         }
         public IActionResult Index()
         {
@@ -34,10 +38,15 @@ namespace WebApp.Controllers
                 //--> odavde ide redirekcija sa postavljenim pass-om na ChangePass sa userAcc modelom i setovanim passom!
                 return RedirectToAction("ChangePassword",new UserAccountChangePassVM() { Id = user.Id });
             }
-            catch (Exception)
+            catch (NotValidParameterException e)
             {
-
-                throw;
+                Logger.LogError(e, e.Message);
+                return RedirectToPage("Error");
+            }
+            catch (Exception e)
+            {
+                Logger.LogError(e, e.Message);
+                return RedirectToPage("Error");
             }
         }
 
