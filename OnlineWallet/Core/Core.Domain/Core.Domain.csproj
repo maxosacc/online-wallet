@@ -8,4 +8,9 @@
     <ProjectReference Include="..\..\Common\Common.Utils\Common.Utils.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="DTOs\Banks\" />
+    <Folder Include="DTOs\Transactions\" />
+  </ItemGroup>
+
 </Project>
