@@ -10,7 +10,10 @@ namespace WebApp.Models.UserAccount
     {
         public int Id { get; set; }
         [Required]
+        public string IdentificationNumber { get; set; }
+        [Required]
         public string OldPassword { get; set; }
+        [Required]
         public string NewPassword { get; set; }
         [Required]
         public string RepeatedNewPassword { get; set; }

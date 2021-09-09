@@ -19,33 +19,6 @@ namespace Core.Infrastructure.EfCoreDataAccess.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("ProductVersion", "5.0.0");
 
-            modelBuilder.Entity("Core.Domain.Entities.Transactions.FeeTransaction", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .UseIdentityColumn();
-
-                    b.Property<decimal>("Amount")
-                        .HasPrecision(12, 2)
-                        .HasColumnType("decimal(12,2)");
-
-                    b.Property<int?>("RequestBankAccountId")
-                        .HasColumnType("int");
-
-                    b.Property<DateTime>("TransactionDateTime")
-                        .HasColumnType("datetime");
-
-                    b.Property<int>("Type")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("RequestBankAccountId");
-
-                    b.ToTable("FeeTransactions");
-                });
-
             modelBuilder.Entity("Core.Domain.Entities.Transactions.InternalTransaction", b =>
                 {
                     b.Property<int>("Id")
@@ -62,6 +35,9 @@ namespace Core.Infrastructure.EfCoreDataAccess.Migrations
 
                     b.Property<DateTime>("TransactionDateTime")
                         .HasColumnType("datetime");
+
+                    b.Property<int>("TransactionRequestType")
+                        .HasColumnType("int");
 
                     b.Property<int>("Type")
                         .HasColumnType("int");
@@ -93,6 +69,9 @@ namespace Core.Infrastructure.EfCoreDataAccess.Migrations
                     b.Property<DateTime>("TransactionDateTime")
                         .HasColumnType("datetime");
 
+                    b.Property<int>("TransactionRequestType")
+                        .HasColumnType("int");
+
                     b.Property<int>("Type")
                         .HasColumnType("int");
 
@@ -112,12 +91,18 @@ namespace Core.Infrastructure.EfCoreDataAccess.Migrations
                         .HasColumnType("int")
                         .UseIdentityColumn();
 
+                    b.Property<decimal>("Balance")
+                        .HasColumnType("decimal(18,2)");
+
                     b.Property<int>("Bank")
                         .HasColumnType("int");
 
                     b.Property<string>("BankAccountNumber")
                         .HasMaxLength(30)
                         .HasColumnType("nvarchar(30)");
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("FirstName")
                         .HasMaxLength(30)
@@ -126,9 +111,6 @@ namespace Core.Infrastructure.EfCoreDataAccess.Migrations
                     b.Property<string>("IdentificationNumber")
                         .HasMaxLength(30)
                         .HasColumnType("nvarchar(30)");
-
-                    b.Property<bool>("IsAdmin")
-                        .HasColumnType("bit");
 
                     b.Property<bool>("IsBlocked")
                         .HasColumnType("bit");
@@ -143,15 +125,6 @@ namespace Core.Infrastructure.EfCoreDataAccess.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("UserAccounts");
-                });
-
-            modelBuilder.Entity("Core.Domain.Entities.Transactions.FeeTransaction", b =>
-                {
-                    b.HasOne("Core.Domain.Entities.UserAccount", "RequestBankAccount")
-                        .WithMany()
-                        .HasForeignKey("RequestBankAccountId");
-
-                    b.Navigation("RequestBankAccount");
                 });
 
             modelBuilder.Entity("Core.Domain.Entities.Transactions.InternalTransaction", b =>

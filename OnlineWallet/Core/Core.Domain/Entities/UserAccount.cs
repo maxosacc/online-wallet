@@ -1,4 +1,5 @@
 ﻿using Core.Domain.Entities.Enums;
+using Core.Domain.Entities.Wallets;
 using Core.Domain.Exceptions;
 using System;
 
@@ -14,11 +15,12 @@ namespace Core.Domain.Entities
         public string BankAccountNumber { get; private set; }
         public string Password { get; private set; }
         public bool IsBlocked { get; private set; }
-        public bool IsAdmin { get; private set; }
+        public Wallet Wallet { get; set; }
+        public DateTime CreatedDate { get; private set; }
 
         public UserAccount()
         {
-
+            Wallet wallet = new Wallet();
         }
         public UserAccount(
             string firstName,
@@ -26,8 +28,7 @@ namespace Core.Domain.Entities
             string identificationNumber,
             BankType bank,
             string bankAccountNumber,
-            string password,
-            bool isAdmin = false)
+            string password)
         {
             if (string.IsNullOrEmpty(identificationNumber)) throw new ArgumentNullException("identification number can not be null!");
             if (string.IsNullOrEmpty(bankAccountNumber)) throw new ArgumentNullException("bank account number can not be null!");
@@ -38,8 +39,8 @@ namespace Core.Domain.Entities
             IdentificationNumber = identificationNumber;
             Bank = bank;
             BankAccountNumber = bankAccountNumber;
-            Password = password;
-            IsAdmin = isAdmin;
+            Password = password.Trim();
+            CreatedDate = DateTime.UtcNow;
         }
 
         public void BlockUser()
@@ -48,8 +49,36 @@ namespace Core.Domain.Entities
             {
                 throw new NotValidActionException("User is already blocked");
             }
-            IsBlocked = IsBlocked;
+            IsBlocked = true;
+        }
+        public void UnBlockUser()
+        {
+            if (!IsBlocked)
+            {
+                throw new NotValidActionException("User is already blocked");
+            }
+            IsBlocked = false;
+        }
+        public void PayIn(decimal amount)
+        {
+            Wallet.PayIn(amount);
+        }
 
+        public void PayOut(decimal amount)
+        {
+            Wallet.PayOut(amount);
+        }
+        public void ChangePassword(string oldPassword, string newPassword)
+        {
+            if (!(Password == oldPassword.Trim())) throw new NotValidActionException("Old password wrong!");
+            Password = newPassword;
+        }
+
+        public bool IsFirstSevenDaysOfCreation()
+        {
+            DateTime CreatedDatePlusSevenDays = CreatedDate.AddDays(7);
+            if (DateTime.UtcNow > CreatedDatePlusSevenDays) return false;
+            return true;
         }
     }
 }

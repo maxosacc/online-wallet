@@ -1,0 +1,34 @@
+﻿@page "/register"
+<div class="container col-md-12">
+    <div class="row">
+        <EditForm Model="@Input" OnValidSubmit="@HandleValidSubmit">
+            <div class="form-group">
+                <label class="col-md-6" for="firstName">First name</label>
+                <InputText id="firstName" class="col-md-4" type="text" @bind-Value="Input.FirstName" />
+            </div>
+            <div class="form-group">
+                <label class="col-md-6" for="lastName">Last name</label>
+                <InputText id="lastName" class="col-md-4" type="text" @bind-Value="Input.LastName" />
+            </div>
+            <div class="form-group">
+                <label class="col-md-6" for="IdentificationNumber">Identification number</label>
+                <InputText id="identificationNumber"class="col-md-4" type="text" @bind-Value="Input.IdentificationNumber" />
+            </div>
+            <div class="form-group">
+                <label class="col-md-6" for="bank">Bank</label>
+                <input id="bank"class="col-md-4" @bind-value="Input.Bank" readonly />
+            </div>
+            <div class="form-group">
+                <label class="col-md-6" for="bankAccountNumber">Bank account number</label>
+                <InputText id="bankAccountNumber"class="col-md-4" type="text" @bind-Value="Input.BankAccountNumber" />
+            </div>
+            <div class="form-group">
+                <label class="col-md-6" for="bankPin">Bank pin</label>
+                <InputText id="bankPin" class="col-md-4" type="password" @bind-Value="Input.BankPin" />
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary">Registracija</button>
+            </div>
+        </EditForm>
+    </div>
+</div>

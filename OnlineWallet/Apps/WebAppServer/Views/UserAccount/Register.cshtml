@@ -1,0 +1,35 @@
+﻿@page "/register"
+@model WebAppServer.Models.UserAccount.UserAccountVM
+<div class="container col-md-12">
+    <div class="row">
+        <form method="post" asp-controller="UserAccount" asp-action="Register">
+            <div class="form-group">
+                <label class="col-md-6" asp-for="FirstName">First name</label>
+                <input class="col-md-4" type="text" asp-for="FirstName" />
+            </div>
+            <div class="form-group">
+                <label class="col-md-6" asp-for="LastName">Last name</label>
+                <input class="col-md-4" type="text" asp-for="LastName" />
+            </div>
+            <div class="form-group">
+                <label class="col-md-6" asp-for="IdentificationNumber">Identification number</label>
+                <input class="col-md-4" type="text" asp-for="IdentificationNumber" />
+            </div>
+            <div class="form-group">
+                <label class="col-md-6" asp-for="Bank">Bank</label>
+                <input class="col-md-4" asp-for="Bank" readonly />
+            </div>
+            <div class="form-group">
+                <label class="col-md-6" asp-for="BankAccountNumber">Bank account number</label>
+                <input class="col-md-4" type="text" asp-for="BankAccountNumber" />
+            </div>
+            <div class="form-group">
+                <label class="col-md-6" asp-for="BankPin">Bank pin</label>
+                <input class="col-md-4" type="password" asp-for="BankPin" />
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary">Registracija</button>
+            </div>
+        </form>
+    </div>
+</div>

@@ -9,7 +9,6 @@
       "Tests.ApplicationServicesTests/1.0.0": {
         "dependencies": {
           "Common.Utils": "1.0.0",
-          "Core.ApplicationServices": "1.0.0",
           "Core.Infrastructure.EfCoreDataAccess": "1.0.0",
           "MSTest.TestAdapter": "2.1.2",
           "MSTest.TestFramework": "2.1.2",
@@ -1733,19 +1732,11 @@
           "Common.Utils.dll": {}
         }
       },
-      "Core.ApplicationServices/1.0.0": {
-        "dependencies": {
-          "Core.Domain": "1.0.0",
-          "Microsoft.Extensions.Http": "3.1.11",
-          "System.Net.Http.Json": "3.2.0"
-        },
-        "runtime": {
-          "Core.ApplicationServices.dll": {}
-        }
-      },
       "Core.Domain/1.0.0": {
         "dependencies": {
-          "Common.Utils": "1.0.0"
+          "Common.Utils": "1.0.0",
+          "Microsoft.Extensions.Http": "3.1.11",
+          "System.Net.Http.Json": "3.2.0"
         },
         "runtime": {
           "Core.Domain.dll": {}
@@ -2747,11 +2738,6 @@
       "sha512": ""
     },
     "Common.Utils/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Core.ApplicationServices/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

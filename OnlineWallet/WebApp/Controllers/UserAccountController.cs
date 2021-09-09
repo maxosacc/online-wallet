@@ -3,15 +3,13 @@ using Core.Domain.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 using WebApp.Models.UserAccount;
 
 namespace WebApp.Controllers
 {
     public class UserAccountController : Controller
-    {
+    {//TODO SVE AKCIJE MORAJU PROSLEDJIVATI JMBG I PASS
         private readonly IUserAccountService _userAccountService;
         private readonly ILogger<UserAccountController> Logger;
         public UserAccountController(IUserAccountService userAccountService,ILogger<UserAccountController> logger)
@@ -36,7 +34,7 @@ namespace WebApp.Controllers
             {
                 var result = await _userAccountService.CreateUser(user.FirstName, user.LastName, user.IdentificationNumber, user.Bank, user.BankAccountNumber, user.BankPin);
                 //--> odavde ide redirekcija sa postavljenim pass-om na ChangePass sa userAcc modelom i setovanim passom!
-                return RedirectToAction("ChangePassword",new UserAccountChangePassVM() { Id = user.Id });
+                return RedirectToAction("ChangePassword",new UserAccountChangePassVM() { Id = user.Id, IdentificationNumber = user.IdentificationNumber, OldPassword = user.Password });
             }
             catch (NotValidParameterException e)
             {
@@ -46,21 +44,8 @@ namespace WebApp.Controllers
             catch (Exception e)
             {
                 Logger.LogError(e, e.Message);
-                return RedirectToPage("Error");
+                return RedirectToPage("Home/Error");
             }
-        }
-
-
-        [HttpGet]
-        public async Task<IActionResult> Login()
-        {
-            return View(new UserAccountVM());
-        }
-        [HttpPost]
-        public async Task<IActionResult> Login(UserAccountVM user)
-        {
-            await _userAccountService.LoginUser(user.IdentificationNumber, user.Password);
-            return null;
         }
 
         [HttpGet]

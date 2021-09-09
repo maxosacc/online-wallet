@@ -1,8 +1,6 @@
-﻿using Core.Domain.Entities.Enums;
+﻿using Core.Domain.DTOs.Wallets;
 using Core.Domain.Entities;
-using System;
-using System.Collections.Generic;
-using System.Text;
+using Core.Domain.Entities.Enums;
 
 namespace Core.Domain.DTOs.UserAccounts
 {
@@ -16,7 +14,7 @@ namespace Core.Domain.DTOs.UserAccounts
         public string BankAccountNumber { get; set; }
         public string Password { get; set; }
         public bool IsBlocked { get; set; }
-        public bool IsAdmin { get; set; }
+        public WalletDto Wallet { get; set; }
 
         public UserAccountDto()
         {
@@ -32,7 +30,7 @@ namespace Core.Domain.DTOs.UserAccounts
             BankAccountNumber = userAccount.BankAccountNumber;
             Password = userAccount.Password;
             IsBlocked = userAccount.IsBlocked;
-            IsAdmin = userAccount.IsAdmin;
+            Wallet = new WalletDto(userAccount.Wallet);
         }
     }
 
@@ -46,8 +44,7 @@ namespace Core.Domain.DTOs.UserAccounts
                 dto.IdentificationNumber,
                 dto.Bank,
                 dto.BankAccountNumber,
-                dto.Password,
-                dto.IsAdmin);
+                dto.Password);
         }
         public static UserAccountDto ToDto(this UserAccount userAccount)
         {

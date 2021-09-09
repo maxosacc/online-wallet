@@ -1,20 +1,15 @@
-using Core.ApplicationServices;
-using Core.ApplicationServices.Bank;
 using Core.Domain.Repositories;
 using Core.Domain.Services;
 using Core.Domain.Services.Banks;
+using Core.Domain.Services.Banks.Implementations;
+using Core.Domain.Services.UserAccount.Implementations;
 using Core.Infrastructure.EfCoreDataAccess;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace WebApp
 {
@@ -56,9 +51,9 @@ namespace WebApp
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
-            app.UseHttpsRedirection();
+            //app.UseHttpsRedirection();
             app.UseStaticFiles();
-
+            
             app.UseRouting();
 
             app.UseAuthorization();

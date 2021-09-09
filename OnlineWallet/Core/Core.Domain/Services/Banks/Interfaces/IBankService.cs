@@ -9,5 +9,6 @@ namespace Core.Domain.Services.Banks
         Task<bool> CheckStatus(string userIdentificationNumber, int bankPin);
         Task<bool> Deposit(string userIdentificationNumber, int bankPin, decimal amount);
         Task<bool> Withdraw(string userIdentificationNumber, int bankPin, decimal amount);
+        Task<bool> Transfer(string userIdentificationNumber, int bankPin, decimal amount, string bankAccountNumberReciever);
     }
 }

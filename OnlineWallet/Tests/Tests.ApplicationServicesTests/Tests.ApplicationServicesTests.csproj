@@ -15,7 +15,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\Common\Common.Utils\Common.Utils.csproj" />
-    <ProjectReference Include="..\..\Core\Core.ApplicationServices\Core.ApplicationServices.csproj" />
     <ProjectReference Include="..\..\Core\Infrastructure\Core.Infrastructure.EfCoreDataAccess\Core.Infrastructure.EfCoreDataAccess.csproj" />
   </ItemGroup>
 

@@ -1,0 +1,23 @@
+﻿@page "/checkStatus"
+<div class="container col-md-12">
+    <div class="row">
+        <EditForm Model="@Input" OnValidSubmit="@LoginCheck">
+            <div class="form-group">
+                <label class="col-md-6" for="IdentificationNumber">Identification number</label>
+                <InputText id="identificationNumber" class="col-md-4" type="text" @bind-Value="Input.IdentificationNumber" />
+            </div>
+            <div class="form-group">
+                <label class="col-md-6" for="password">Bank pin</label>
+                <InputText id="password" class="col-md-4" type="password" @bind-Value="Input.BankPin" />
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary ml-2">Check balance</button>
+            </div>
+        </EditForm>
+    </div>
+    <div class="row">
+        <div class="col-md-6" style="visibility: @BalanceComponentsVisibility">
+            <label class="pt-2">Balance:</label><button class="btn btn-sm btn-link pt-1 ml-1" disabled>@Balance</button>
+        </div>
+    </div>
+</div>

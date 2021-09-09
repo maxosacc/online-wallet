@@ -1,0 +1,68 @@
+﻿@page "/allTransactions"
+<h3>TransactionsOverview</h3>
+<div class="container col-md-12">
+    <div class="row">
+        <EditForm Model="@Input" OnValidSubmit="@LoginCheck">
+            <div class="form-group">
+                <label class="col-md-6" for="IdentificationNumber">Identification number</label>
+                <InputText id="identificationNumber" class="col-md-4" type="text" @bind-Value="Input.IdentificationNumber" />
+            </div>
+            <div class="form-group">
+                <label class="col-md-6" for="password">Bank pin</label>
+                <InputText id="password" class="col-md-4" type="password" @bind-Value="Input.BankPin" />
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary ml-2">Show transactions</button>
+            </div>
+        </EditForm>
+    </div>
+    @*<div class="row">
+            <div class="col-md-6" style="visibility: @BalanceComponentsVisibility">
+                <label class="pt-2">Balance:</label><button class="btn btn-sm btn-link pt-1 ml-1" disabled>@Balance</button>
+            </div>
+        </div>*@
+    <div class="row">
+        @* OVDE TABELA SA USERIMA *@
+        @if (Transactions.Count <= 0)
+        {
+            <h1>Ucitava se</h1>
+        }
+        else
+        {
+            <table class="table table-bordered table-hover">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">ID transakcije</th>
+                        <th scope="col">Sredstva</th>
+                        <th scope="col">Datum</th>
+                        <th scope="col">Tip transakcije</th>
+                        <th scope="col">Tip prenosa</th>
+                        <th scope="col">Posiljaoc</th>
+                        <th scope="col">Primalac(ako je transfer tip prenosa)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Transactions)
+                    {
+                    <tr>
+                        <td>@item.Id.ToString()</td>
+                        <td>@item.Amount.ToString()</td>
+                        <td>@item.TransactionDateTime.ToString()</td>
+                        <td>@item.Type.ToString()</td>
+                        <td>@item.TransactionRequestType.ToString()</td>
+                        <td>@item.RequestBankAccount.FirstName.ToString() @item.RequestBankAccount.LastName</td>
+                        @if (item.RecieverBankAccount != null)
+                        {
+                            <td>@item.RecieverBankAccount.FirstName.ToString() @item.RecieverBankAccount.LastName</td>
+                        }
+                        else
+                        {
+                            <td>/</td>
+                        }
+                    </tr>
+                    }
+                </tbody>
+            </table>
+        }
+    </div>
+</div>

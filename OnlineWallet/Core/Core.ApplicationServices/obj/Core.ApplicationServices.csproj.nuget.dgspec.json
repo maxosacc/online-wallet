@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Core\\Core.ApplicationServices\\Core.ApplicationServices.csproj": {}
+    "C:\\Users\\Maxo\\Documents\\repos\\online-wallet\\OnlineWallet\\Core\\Core.ApplicationServices\\Core.ApplicationServices.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Common\\Common.Utils\\Common.Utils.csproj": {
+    "C:\\Users\\Maxo\\Documents\\repos\\online-wallet\\OnlineWallet\\Common\\Common.Utils\\Common.Utils.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Common\\Common.Utils\\Common.Utils.csproj",
+        "projectUniqueName": "C:\\Users\\Maxo\\Documents\\repos\\online-wallet\\OnlineWallet\\Common\\Common.Utils\\Common.Utils.csproj",
         "projectName": "Common.Utils",
-        "projectPath": "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Common\\Common.Utils\\Common.Utils.csproj",
-        "packagesPath": "C:\\Users\\Korisnik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Common\\Common.Utils\\obj\\",
+        "projectPath": "C:\\Users\\Maxo\\Documents\\repos\\online-wallet\\OnlineWallet\\Common\\Common.Utils\\Common.Utils.csproj",
+        "packagesPath": "C:\\Users\\Maxo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Maxo\\Documents\\repos\\online-wallet\\OnlineWallet\\Common\\Common.Utils\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Korisnik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Maxo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,21 +57,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Core\\Core.ApplicationServices\\Core.ApplicationServices.csproj": {
+    "C:\\Users\\Maxo\\Documents\\repos\\online-wallet\\OnlineWallet\\Core\\Core.ApplicationServices\\Core.ApplicationServices.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Core\\Core.ApplicationServices\\Core.ApplicationServices.csproj",
+        "projectUniqueName": "C:\\Users\\Maxo\\Documents\\repos\\online-wallet\\OnlineWallet\\Core\\Core.ApplicationServices\\Core.ApplicationServices.csproj",
         "projectName": "Core.ApplicationServices",
-        "projectPath": "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Core\\Core.ApplicationServices\\Core.ApplicationServices.csproj",
-        "packagesPath": "C:\\Users\\Korisnik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Core\\Core.ApplicationServices\\obj\\",
+        "projectPath": "C:\\Users\\Maxo\\Documents\\repos\\online-wallet\\OnlineWallet\\Core\\Core.ApplicationServices\\Core.ApplicationServices.csproj",
+        "packagesPath": "C:\\Users\\Maxo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Maxo\\Documents\\repos\\online-wallet\\OnlineWallet\\Core\\Core.ApplicationServices\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Korisnik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Maxo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -82,8 +88,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Core\\Core.Domain\\Core.Domain.csproj": {
-                "projectPath": "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Core\\Core.Domain\\Core.Domain.csproj"
+              "C:\\Users\\Maxo\\Documents\\repos\\online-wallet\\OnlineWallet\\Core\\Core.Domain\\Core.Domain.csproj": {
+                "projectPath": "C:\\Users\\Maxo\\Documents\\repos\\online-wallet\\OnlineWallet\\Core\\Core.Domain\\Core.Domain.csproj"
               }
             }
           }
@@ -122,21 +128,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Core\\Core.Domain\\Core.Domain.csproj": {
+    "C:\\Users\\Maxo\\Documents\\repos\\online-wallet\\OnlineWallet\\Core\\Core.Domain\\Core.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Core\\Core.Domain\\Core.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Maxo\\Documents\\repos\\online-wallet\\OnlineWallet\\Core\\Core.Domain\\Core.Domain.csproj",
         "projectName": "Core.Domain",
-        "projectPath": "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Core\\Core.Domain\\Core.Domain.csproj",
-        "packagesPath": "C:\\Users\\Korisnik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Core\\Core.Domain\\obj\\",
+        "projectPath": "C:\\Users\\Maxo\\Documents\\repos\\online-wallet\\OnlineWallet\\Core\\Core.Domain\\Core.Domain.csproj",
+        "packagesPath": "C:\\Users\\Maxo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Maxo\\Documents\\repos\\online-wallet\\OnlineWallet\\Core\\Core.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Korisnik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Maxo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -150,8 +159,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Common\\Common.Utils\\Common.Utils.csproj": {
-                "projectPath": "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Common\\Common.Utils\\Common.Utils.csproj"
+              "C:\\Users\\Maxo\\Documents\\repos\\online-wallet\\OnlineWallet\\Common\\Common.Utils\\Common.Utils.csproj": {
+                "projectPath": "C:\\Users\\Maxo\\Documents\\repos\\online-wallet\\OnlineWallet\\Common\\Common.Utils\\Common.Utils.csproj"
               }
             }
           }
@@ -165,6 +174,16 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[3.1.11, )"
+            },
+            "System.Net.Http.Json": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -180,7 +199,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

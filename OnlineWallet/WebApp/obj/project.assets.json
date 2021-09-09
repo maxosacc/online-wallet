@@ -2512,26 +2512,13 @@
           "bin/placeholder/Common.Utils.dll": {}
         }
       },
-      "Core.ApplicationServices/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "dependencies": {
-          "Core.Domain": "1.0.0",
-          "Microsoft.Extensions.Http": "3.1.11",
-          "System.Net.Http.Json": "3.2.0"
-        },
-        "compile": {
-          "bin/placeholder/Core.ApplicationServices.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Core.ApplicationServices.dll": {}
-        }
-      },
       "Core.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "Common.Utils": "1.0.0"
+          "Common.Utils": "1.0.0",
+          "Microsoft.Extensions.Http": "3.1.11",
+          "System.Net.Http.Json": "3.2.0"
         },
         "compile": {
           "bin/placeholder/Core.Domain.dll": {}
@@ -8322,11 +8309,6 @@
       "path": "../Common/Common.Utils/Common.Utils.csproj",
       "msbuildProject": "../Common/Common.Utils/Common.Utils.csproj"
     },
-    "Core.ApplicationServices/1.0.0": {
-      "type": "project",
-      "path": "../Core/Core.ApplicationServices/Core.ApplicationServices.csproj",
-      "msbuildProject": "../Core/Core.ApplicationServices/Core.ApplicationServices.csproj"
-    },
     "Core.Domain/1.0.0": {
       "type": "project",
       "path": "../Core/Core.Domain/Core.Domain.csproj",
@@ -8340,7 +8322,6 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Core.ApplicationServices >= 1.0.0",
       "Core.Infrastructure.EfCoreDataAccess >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.0",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.10.9",
@@ -8352,19 +8333,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Korisnik\\.nuget\\packages\\": {}
+    "C:\\Users\\Maxo\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\WebApp\\WebApp.csproj",
+      "projectUniqueName": "C:\\Users\\Maxo\\Documents\\repos\\online-wallet\\OnlineWallet\\WebApp\\WebApp.csproj",
       "projectName": "WebApp",
-      "projectPath": "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\WebApp\\WebApp.csproj",
-      "packagesPath": "C:\\Users\\Korisnik\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\WebApp\\obj\\",
+      "projectPath": "C:\\Users\\Maxo\\Documents\\repos\\online-wallet\\OnlineWallet\\WebApp\\WebApp.csproj",
+      "packagesPath": "C:\\Users\\Maxo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Maxo\\Documents\\repos\\online-wallet\\OnlineWallet\\WebApp\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Korisnik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Maxo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8378,11 +8363,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Core\\Core.ApplicationServices\\Core.ApplicationServices.csproj": {
-              "projectPath": "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Core\\Core.ApplicationServices\\Core.ApplicationServices.csproj"
-            },
-            "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Core\\Infrastructure\\Core.Infrastructure.EfCoreDataAccess\\Core.Infrastructure.EfCoreDataAccess.csproj": {
-              "projectPath": "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Core\\Infrastructure\\Core.Infrastructure.EfCoreDataAccess\\Core.Infrastructure.EfCoreDataAccess.csproj"
+            "C:\\Users\\Maxo\\Documents\\repos\\online-wallet\\OnlineWallet\\Core\\Infrastructure\\Core.Infrastructure.EfCoreDataAccess\\Core.Infrastructure.EfCoreDataAccess.csproj": {
+              "projectPath": "C:\\Users\\Maxo\\Documents\\repos\\online-wallet\\OnlineWallet\\Core\\Infrastructure\\Core.Infrastructure.EfCoreDataAccess\\Core.Infrastructure.EfCoreDataAccess.csproj"
             }
           }
         }
@@ -8446,7 +8428,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

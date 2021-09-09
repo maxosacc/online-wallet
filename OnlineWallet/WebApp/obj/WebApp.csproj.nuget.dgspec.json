@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\WebApp\\WebApp.csproj": {}
+    "C:\\Users\\Maxo\\Documents\\repos\\online-wallet\\OnlineWallet\\WebApp\\WebApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Common\\Common.EfCoreDbContext\\Common.EfCoreDbContext.csproj": {
+    "C:\\Users\\Maxo\\Documents\\repos\\online-wallet\\OnlineWallet\\Common\\Common.EfCoreDbContext\\Common.EfCoreDbContext.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Common\\Common.EfCoreDbContext\\Common.EfCoreDbContext.csproj",
+        "projectUniqueName": "C:\\Users\\Maxo\\Documents\\repos\\online-wallet\\OnlineWallet\\Common\\Common.EfCoreDbContext\\Common.EfCoreDbContext.csproj",
         "projectName": "Common.EfCoreDbContext",
-        "projectPath": "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Common\\Common.EfCoreDbContext\\Common.EfCoreDbContext.csproj",
-        "packagesPath": "C:\\Users\\Korisnik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Common\\Common.EfCoreDbContext\\obj\\",
+        "projectPath": "C:\\Users\\Maxo\\Documents\\repos\\online-wallet\\OnlineWallet\\Common\\Common.EfCoreDbContext\\Common.EfCoreDbContext.csproj",
+        "packagesPath": "C:\\Users\\Maxo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Maxo\\Documents\\repos\\online-wallet\\OnlineWallet\\Common\\Common.EfCoreDbContext\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Korisnik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Maxo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +31,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Common\\Common.Utils\\Common.Utils.csproj": {
-                "projectPath": "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Common\\Common.Utils\\Common.Utils.csproj"
+              "C:\\Users\\Maxo\\Documents\\repos\\online-wallet\\OnlineWallet\\Common\\Common.Utils\\Common.Utils.csproj": {
+                "projectPath": "C:\\Users\\Maxo\\Documents\\repos\\online-wallet\\OnlineWallet\\Common\\Common.Utils\\Common.Utils.csproj"
               }
             }
           }
@@ -70,21 +73,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Common\\Common.Utils\\Common.Utils.csproj": {
+    "C:\\Users\\Maxo\\Documents\\repos\\online-wallet\\OnlineWallet\\Common\\Common.Utils\\Common.Utils.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Common\\Common.Utils\\Common.Utils.csproj",
+        "projectUniqueName": "C:\\Users\\Maxo\\Documents\\repos\\online-wallet\\OnlineWallet\\Common\\Common.Utils\\Common.Utils.csproj",
         "projectName": "Common.Utils",
-        "projectPath": "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Common\\Common.Utils\\Common.Utils.csproj",
-        "packagesPath": "C:\\Users\\Korisnik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Common\\Common.Utils\\obj\\",
+        "projectPath": "C:\\Users\\Maxo\\Documents\\repos\\online-wallet\\OnlineWallet\\Common\\Common.Utils\\Common.Utils.csproj",
+        "packagesPath": "C:\\Users\\Maxo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Maxo\\Documents\\repos\\online-wallet\\OnlineWallet\\Common\\Common.Utils\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Korisnik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Maxo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -124,21 +130,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Core\\Core.ApplicationServices\\Core.ApplicationServices.csproj": {
+    "C:\\Users\\Maxo\\Documents\\repos\\online-wallet\\OnlineWallet\\Core\\Core.Domain\\Core.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Core\\Core.ApplicationServices\\Core.ApplicationServices.csproj",
-        "projectName": "Core.ApplicationServices",
-        "projectPath": "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Core\\Core.ApplicationServices\\Core.ApplicationServices.csproj",
-        "packagesPath": "C:\\Users\\Korisnik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Core\\Core.ApplicationServices\\obj\\",
+        "projectUniqueName": "C:\\Users\\Maxo\\Documents\\repos\\online-wallet\\OnlineWallet\\Core\\Core.Domain\\Core.Domain.csproj",
+        "projectName": "Core.Domain",
+        "projectPath": "C:\\Users\\Maxo\\Documents\\repos\\online-wallet\\OnlineWallet\\Core\\Core.Domain\\Core.Domain.csproj",
+        "packagesPath": "C:\\Users\\Maxo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Maxo\\Documents\\repos\\online-wallet\\OnlineWallet\\Core\\Core.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Korisnik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Maxo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -152,8 +161,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Core\\Core.Domain\\Core.Domain.csproj": {
-                "projectPath": "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Core\\Core.Domain\\Core.Domain.csproj"
+              "C:\\Users\\Maxo\\Documents\\repos\\online-wallet\\OnlineWallet\\Common\\Common.Utils\\Common.Utils.csproj": {
+                "projectPath": "C:\\Users\\Maxo\\Documents\\repos\\online-wallet\\OnlineWallet\\Common\\Common.Utils\\Common.Utils.csproj"
               }
             }
           }
@@ -192,79 +201,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Core\\Core.Domain\\Core.Domain.csproj": {
+    "C:\\Users\\Maxo\\Documents\\repos\\online-wallet\\OnlineWallet\\Core\\Infrastructure\\Core.Infrastructure.EfCoreDataAccess\\Core.Infrastructure.EfCoreDataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Core\\Core.Domain\\Core.Domain.csproj",
-        "projectName": "Core.Domain",
-        "projectPath": "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Core\\Core.Domain\\Core.Domain.csproj",
-        "packagesPath": "C:\\Users\\Korisnik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Core\\Core.Domain\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\Korisnik\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp3.1"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
-            "projectReferences": {
-              "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Common\\Common.Utils\\Common.Utils.csproj": {
-                "projectPath": "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Common\\Common.Utils\\Common.Utils.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Core\\Infrastructure\\Core.Infrastructure.EfCoreDataAccess\\Core.Infrastructure.EfCoreDataAccess.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Core\\Infrastructure\\Core.Infrastructure.EfCoreDataAccess\\Core.Infrastructure.EfCoreDataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\Maxo\\Documents\\repos\\online-wallet\\OnlineWallet\\Core\\Infrastructure\\Core.Infrastructure.EfCoreDataAccess\\Core.Infrastructure.EfCoreDataAccess.csproj",
         "projectName": "Core.Infrastructure.EfCoreDataAccess",
-        "projectPath": "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Core\\Infrastructure\\Core.Infrastructure.EfCoreDataAccess\\Core.Infrastructure.EfCoreDataAccess.csproj",
-        "packagesPath": "C:\\Users\\Korisnik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Core\\Infrastructure\\Core.Infrastructure.EfCoreDataAccess\\obj\\",
+        "projectPath": "C:\\Users\\Maxo\\Documents\\repos\\online-wallet\\OnlineWallet\\Core\\Infrastructure\\Core.Infrastructure.EfCoreDataAccess\\Core.Infrastructure.EfCoreDataAccess.csproj",
+        "packagesPath": "C:\\Users\\Maxo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Maxo\\Documents\\repos\\online-wallet\\OnlineWallet\\Core\\Infrastructure\\Core.Infrastructure.EfCoreDataAccess\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Korisnik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Maxo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -278,11 +232,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Common\\Common.EfCoreDbContext\\Common.EfCoreDbContext.csproj": {
-                "projectPath": "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Common\\Common.EfCoreDbContext\\Common.EfCoreDbContext.csproj"
+              "C:\\Users\\Maxo\\Documents\\repos\\online-wallet\\OnlineWallet\\Common\\Common.EfCoreDbContext\\Common.EfCoreDbContext.csproj": {
+                "projectPath": "C:\\Users\\Maxo\\Documents\\repos\\online-wallet\\OnlineWallet\\Common\\Common.EfCoreDbContext\\Common.EfCoreDbContext.csproj"
               },
-              "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Core\\Core.Domain\\Core.Domain.csproj": {
-                "projectPath": "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Core\\Core.Domain\\Core.Domain.csproj"
+              "C:\\Users\\Maxo\\Documents\\repos\\online-wallet\\OnlineWallet\\Core\\Core.Domain\\Core.Domain.csproj": {
+                "projectPath": "C:\\Users\\Maxo\\Documents\\repos\\online-wallet\\OnlineWallet\\Core\\Core.Domain\\Core.Domain.csproj"
               }
             }
           }
@@ -311,21 +265,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\WebApp\\WebApp.csproj": {
+    "C:\\Users\\Maxo\\Documents\\repos\\online-wallet\\OnlineWallet\\WebApp\\WebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\WebApp\\WebApp.csproj",
+        "projectUniqueName": "C:\\Users\\Maxo\\Documents\\repos\\online-wallet\\OnlineWallet\\WebApp\\WebApp.csproj",
         "projectName": "WebApp",
-        "projectPath": "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\WebApp\\WebApp.csproj",
-        "packagesPath": "C:\\Users\\Korisnik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\WebApp\\obj\\",
+        "projectPath": "C:\\Users\\Maxo\\Documents\\repos\\online-wallet\\OnlineWallet\\WebApp\\WebApp.csproj",
+        "packagesPath": "C:\\Users\\Maxo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Maxo\\Documents\\repos\\online-wallet\\OnlineWallet\\WebApp\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Korisnik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Maxo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -339,11 +296,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Core\\Core.ApplicationServices\\Core.ApplicationServices.csproj": {
-                "projectPath": "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Core\\Core.ApplicationServices\\Core.ApplicationServices.csproj"
-              },
-              "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Core\\Infrastructure\\Core.Infrastructure.EfCoreDataAccess\\Core.Infrastructure.EfCoreDataAccess.csproj": {
-                "projectPath": "C:\\Users\\Korisnik\\Documents\\repos\\online-wallet\\OnlineWallet\\Core\\Infrastructure\\Core.Infrastructure.EfCoreDataAccess\\Core.Infrastructure.EfCoreDataAccess.csproj"
+              "C:\\Users\\Maxo\\Documents\\repos\\online-wallet\\OnlineWallet\\Core\\Infrastructure\\Core.Infrastructure.EfCoreDataAccess\\Core.Infrastructure.EfCoreDataAccess.csproj": {
+                "projectPath": "C:\\Users\\Maxo\\Documents\\repos\\online-wallet\\OnlineWallet\\Core\\Infrastructure\\Core.Infrastructure.EfCoreDataAccess\\Core.Infrastructure.EfCoreDataAccess.csproj"
               }
             }
           }
@@ -407,7 +361,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

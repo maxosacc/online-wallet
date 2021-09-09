@@ -10,3 +10,15 @@ C:\Users\Korisnik\Documents\repos\online-wallet\OnlineWallet\Core\Core.Domain\ob
 C:\Users\Korisnik\Documents\repos\online-wallet\OnlineWallet\Core\Core.Domain\obj\Debug\netcoreapp3.1\Core.Domain.csproj.CopyComplete
 C:\Users\Korisnik\Documents\repos\online-wallet\OnlineWallet\Core\Core.Domain\obj\Debug\netcoreapp3.1\Core.Domain.dll
 C:\Users\Korisnik\Documents\repos\online-wallet\OnlineWallet\Core\Core.Domain\obj\Debug\netcoreapp3.1\Core.Domain.pdb
+C:\Users\Maxo\Documents\repos\online-wallet\OnlineWallet\Core\Core.Domain\bin\Debug\netcoreapp3.1\Core.Domain.deps.json
+C:\Users\Maxo\Documents\repos\online-wallet\OnlineWallet\Core\Core.Domain\bin\Debug\netcoreapp3.1\Core.Domain.dll
+C:\Users\Maxo\Documents\repos\online-wallet\OnlineWallet\Core\Core.Domain\bin\Debug\netcoreapp3.1\Core.Domain.pdb
+C:\Users\Maxo\Documents\repos\online-wallet\OnlineWallet\Core\Core.Domain\bin\Debug\netcoreapp3.1\Common.Utils.dll
+C:\Users\Maxo\Documents\repos\online-wallet\OnlineWallet\Core\Core.Domain\bin\Debug\netcoreapp3.1\Common.Utils.pdb
+C:\Users\Maxo\Documents\repos\online-wallet\OnlineWallet\Core\Core.Domain\obj\Debug\netcoreapp3.1\Core.Domain.csprojAssemblyReference.cache
+C:\Users\Maxo\Documents\repos\online-wallet\OnlineWallet\Core\Core.Domain\obj\Debug\netcoreapp3.1\Core.Domain.AssemblyInfoInputs.cache
+C:\Users\Maxo\Documents\repos\online-wallet\OnlineWallet\Core\Core.Domain\obj\Debug\netcoreapp3.1\Core.Domain.AssemblyInfo.cs
+C:\Users\Maxo\Documents\repos\online-wallet\OnlineWallet\Core\Core.Domain\obj\Debug\netcoreapp3.1\Core.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Maxo\Documents\repos\online-wallet\OnlineWallet\Core\Core.Domain\obj\Debug\netcoreapp3.1\Core.Domain.csproj.CopyComplete
+C:\Users\Maxo\Documents\repos\online-wallet\OnlineWallet\Core\Core.Domain\obj\Debug\netcoreapp3.1\Core.Domain.dll
+C:\Users\Maxo\Documents\repos\online-wallet\OnlineWallet\Core\Core.Domain\obj\Debug\netcoreapp3.1\Core.Domain.pdb

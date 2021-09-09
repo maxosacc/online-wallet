@@ -24,7 +24,6 @@
     ".NETCoreApp,Version=v3.1": {
       "WebApp/1.0.0": {
         "dependencies": {
-          "Core.ApplicationServices": "1.0.0",
           "Core.Infrastructure.EfCoreDataAccess": "1.0.0",
           "Microsoft.EntityFrameworkCore.Design": "5.0.0",
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.10.9",
@@ -2070,22 +2069,11 @@
           "Common.Utils.dll": {}
         }
       },
-      "Core.ApplicationServices/1.0.0": {
-        "dependencies": {
-          "Core.Domain": "1.0.0",
-          "Microsoft.Extensions.Http": "3.1.11",
-          "System.Net.Http.Json": "3.2.0"
-        },
-        "runtime": {
-          "Core.ApplicationServices.dll": {}
-        },
-        "compile": {
-          "Core.ApplicationServices.dll": {}
-        }
-      },
       "Core.Domain/1.0.0": {
         "dependencies": {
-          "Common.Utils": "1.0.0"
+          "Common.Utils": "1.0.0",
+          "Microsoft.Extensions.Http": "3.1.11",
+          "System.Net.Http.Json": "3.2.0"
         },
         "runtime": {
           "Core.Domain.dll": {}
@@ -4813,11 +4801,6 @@
       "sha512": ""
     },
     "Common.Utils/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Core.ApplicationServices/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

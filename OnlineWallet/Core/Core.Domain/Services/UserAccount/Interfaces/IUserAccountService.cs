@@ -1,5 +1,6 @@
 ﻿using Core.Domain.DTOs.UserAccounts;
 using Core.Domain.Entities.Enums;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace Core.Domain.Services
@@ -13,17 +14,13 @@ namespace Core.Domain.Services
             BankType bankType,
             string bankAccountNumber,
             int bankPin);
-        Task<UserAccountDto> CreateUserTestMock(
-            string firstName,
-            string lastName,
-            string userIdentificationNumber,
-            BankType bankType,
-            string bankAccountNumber,
-            int bankPin);
+        Task<bool> ChangePassword(string userIdentificationNumber, string oldPassword, string newPassword, string newPasswordRepeated);
+        Task<bool> LoginAsAdmin(string password);
+        
+        Task<decimal> GetUserAccountBalance(string userIdentificationNumber, string bankPin);
 
-        Task<int> LoginUser(string userIdentificationNumber, string password);
-        Task<int> LogOut();
-
-        Task<bool> ChangePassword(string oldPassword, string newPassword);
+        Task<List<UserAccountDto>> GetAllUsers(string adminPassword);
+        Task<bool> BlockUser(string adminPassword, int id);
+        Task<bool> UnBlockUser(string adminPassword, int id);
     }
 }

@@ -1,0 +1,81 @@
+﻿@page "/allUsers"
+<h3>AllUsers</h3>
+
+<div class="container col-md-12">
+    <div class="row">
+        <EditForm Model="@Input" OnValidSubmit="@LoginCheck">
+            <div class="form-group">
+                <label class="col-md-6" for="password">Admin password</label>
+                <InputText id="password" class="col-md-4" type="password" @bind-Value="Input.AdminPassword" />
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary ml-2">Show all users</button>
+            </div>
+        </EditForm>
+    </div>
+    <div class="row">
+        @* OVDE TABELA SA USERIMA *@
+        @if (!IsAdminLoggedIn)
+        {
+            <h1>Niste ulogovani</h1>
+        }
+        else if (Users.Count <= 0)
+        {
+            <h1>Ucitava se</h1>
+        }
+        else
+        {
+            <table class="table table-bordered table-hover">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">ID Naloga</th>
+                        <th scope="col">Ime</th>
+                        <th scope="col">Prezime</th>
+                        <th scope="col">JMBG</th>
+                        <th scope="col">Referenca banke</th>
+                        <th scope="col">Bankovni racun</th>
+                        <th scope="col">Datum kreiranja</th>
+                        <th scope="col">Blokiran</th>
+                        <th scope="col">Stanje na racunu</th>
+                        <th scope="col">Akcije</th>
+                    </tr>
+                </thead>
+                    <tbody>
+                        @foreach (var item in Users)
+                        {
+                            <tr @onclick="() => SelectTableRow(item.Id)" class="@(SelectedUserId == item.Id ? "row-highlight" : null)">
+                                <td>@item.Id.ToString()</td>
+                                <td>@item.FirstName.ToString()</td>
+                                <td>@item.LastName.ToString()</td>
+                                <td>@item.IdentificationNumber.ToString()</td>
+                                <td>@Common.Utils.EnumMappers.MapBankTypes((int)item.Bank)</td>
+                                <td>@item.BankAccountNumber</td>
+                                <td>@item.Wallet.CreatedDate</td>
+                                @if (item.IsBlocked)
+                                {
+                                    <td>Da</td>
+                                }
+                                else
+                                {
+                                    <td>Ne</td>
+                                }
+                                <td>@item.Wallet.Balance</td>
+                                @if (item.IsBlocked)
+                                {
+                                    <td style="pointer-events: none;">
+                                        <button class="btn-danger btn" @onclick="@(() => { if (SelectedUserId == item.Id) { SelectTableRow(item.Id); } Unblock(item.Id); })" style="pointer-events: visible;">Odblokiraj</button>
+                                    </td>
+                                }
+                                else
+                                {
+                                    <td style="pointer-events: none;">
+                                        <button class="btn-danger btn" @onclick="@(() => { if (SelectedUserId == item.Id) { SelectTableRow(item.Id); } Block(item.Id); })" style="pointer-events: visible;">Blokiraj</button>
+                                    </td>
+                                }
+                            </tr>
+                        }
+                    </tbody>
+            </table>
+        }
+    </div>
+</div>
